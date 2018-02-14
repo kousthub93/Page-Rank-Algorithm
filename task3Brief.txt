@@ -1,0 +1,81 @@
+Comparison and speculation:
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+a) Graph G1:
+
+Top 10 pages by Page rank:
+
+1.case_sensitivity                        0.117655219561
+2.wireless_lan                            0.058292453392
+3.microsoft_windows                       0.0506867007786
+4.ibm                                     0.0456662099507
+5.national_diet_library                   0.0338016559329
+6.wi-fi                                   0.0248840466814
+7.wireless_network                        0.0229162819211
+8.united_states                           0.0118094076487
+9.nasa                                    0.0111226332256
+10.thinkpad                               0.00859959269108
+
+Top 10 pages based on number of inlinks:
+
+1.case_sensitivity                        401 
+2.international_space_station             200 
+3.nasa                                    169 
+4.united_states                           149 
+5.tropical_cyclone                        140 
+6.national_diet_library                   122
+7.russia                                  106 
+8.space_shuttle                           106 
+9.earth                                   103 
+10.russian_federal_space_agency            94
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+b) Graph G2:
+
+Top 10 pages by Page rank:
+
+1.united_states                           0.0140804625391
+2.israel                                  0.0139252797733
+3.hebrew_language                         0.0103636299465
+4.united_kingdom                          0.010185138742
+5.geographic_coordinate_system            0.00718877909507
+6.egypt                                   0.00707868471031
+7.arabic_language                         0.00696022576303
+8.european_union                          0.00637819718413
+9.mediterranean_sea                       0.00517648735804
+10.syria                                  0.00516385508136
+
+Top 10 pages based on number of in-links:
+
+1.israel                                  339 
+2.hebrew_language                         225 
+3.jerusalem                               190 
+4.united_states                           182 
+5.egypt                                   174
+6.united_kingdom                          164 
+7.jordan                                  146
+8.arabic_language                         139 
+9.syria                                   130 
+10.lebanon                                128
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Speculation:
+
+* From the above statistics it can be seen that only 5 pages are in common among the group of 
+  pages ranked by page rank and by number of inlinks for G1
+* From the above statistics it can also be seen that 7 pages are in common among the group of 
+  pages ranked by page rank and by number of inlinks for G2
+  
+* Eventhough 'international_space_station' has 200 inlinks, it does not come in top 10 when sorted based on page rank.
+  This is because quality of the page matters and all the pages ranked based on page rank, has batter quality, popularity
+  than 'international_space_station' and pages pointing to it.
+  
+* In the same way, 'israel' is ranked one when ranked based on the number of in-links. Eventhough it has a very high 
+  number of in-links, the links pointing to it are not popular because of which it does not take first position 
+  when ranked based on page rank alone.
+  
+* So, it can be concluded that, a single factor cannot decide the order of pages shown to the user.
+  The final order depends on the qulaity of the page and also the number and qulaity of all the pages that point to the
+  particular page.

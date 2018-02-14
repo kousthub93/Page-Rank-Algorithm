@@ -1,0 +1,42 @@
+A brief Report on simple statistics over G1 and G2
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Graph G1:
+
+a) Proportion of pages with no in-links(sources):
+
+The number of pages with no in-links(sources) = 0
+The corpus size                               = 1000
+Proportion of pages with no in-links          = 0/1000
+                                              = 0
+								
+
+b) Proportion of pages with no outlinks:
+
+The number of pages with no out-links         = 20
+The corpus size                               = 1000
+Proportion of pages with no in-links          = 20/1000
+                                              = 0.02
+											  
+									
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Graph G2:
+
+a) Proportion of pages with no in-links(sources):
+
+The number of pages with no in-links(sources) = 2
+The corpus size                               = 1000
+Proportion of pages with no in-links          = 2/1000
+                                              = 0.002
+								
+
+b) Proportion of pages with no outlinks:
+
+The number of pages with no out-links         = 427
+The corpus size                               = 1000
+Proportion of pages with no in-links          = 427/1000
+                                              = 0.427
+											  
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
